@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cards.CardFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/add_money_toolbar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_money_toolbar" />
+
+    <EditText
+        android:id="@+id/cardNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_card_no2"
+        android:inputType="number"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/nameText"
+        app:layout_constraintStart_toStartOf="@+id/nameText"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_exp_date_year"
+        android:inputType="number"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/cardNoText"
+        app:layout_constraintTop_toBottomOf="@+id/cardNoText" />
+
+    <EditText
+        android:id="@+id/cvvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_cvv2"
+        android:inputType="number"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/dateText"
+        app:layout_constraintTop_toBottomOf="@+id/dateText" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="@+id/cvvText"
+        app:layout_constraintStart_toStartOf="@+id/cvvText"
+        app:layout_constraintTop_toBottomOf="@+id/cvvText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

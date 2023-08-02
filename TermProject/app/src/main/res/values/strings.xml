@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Berk Tour App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="money_amount" translatable="false">%.2f</string>
+    <string name="bookId">Book id:%d</string>
+    <string name="tourId">Tour id:%d</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="license_agreement">License Agreement</string>
+    <string name="extra_fee" translatable="false">+</string>
+    <string name="_2_person">2+ Person</string>
+    <string name="_1_person">1+ Person</string>
+    <string name="default_1_2_person">Default(1-2 Person)</string>
+    <string name="extra_fee2" translatable="false">+</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="_30" translatable="false">30</string>
+    <string name="_40" translatable="false">40</string>
+    <string name="pay">PAY</string>
+    <string name="extra_fee3" translatable="false">+</string>
+    <string name="total_fee">Total Fee:</string>
+    <string name="enter_money">Enter Money</string>
+    <string name="enter_exp_date">Enter Exp Date</string>
+    <string name="enter_cvv">Enter CVV</string>
+    <string name="add_money">ADD MONEY</string>
+    <string name="add_card">ADD CARD</string>
+    <string name="enter_card_no">Enter Card No</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_cvv2">Enter Cvv</string>
+    <string name="add">ADD</string>
+    <string name="enter_exp_date_year">Enter Exp Date(Year)</string>
+    <string name="enter_card_no2">Enter Card No</string>
+    <string name="enter_an_email">Enter an email</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="my_wallet">my wallet</string>
+    <string name="my_tours">my tours</string>
+    <string name="log_out">log out</string>
+    <string name="delete">Delete</string>
+    <string name="enter_a_destination">ENTER A DESTINATION</string>
+    <string name="enter_an_email2">Enter an email</string>
+    <string name="password2">password</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="enter_password_again">Enter password again</string>
+    <string name="register2">REGISTER</string>
+    <string name="add_money2">ADD MONEY</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="name_of_hotel">Hotel:%s</string>
+    <string name="destination_city">City:%s</string>
+    <string name="date_of_tour">Date:%s</string>
+    <string name="name_of_tour">Tour Name:%s</string>
+    <string name="book_now">Book now!</string>
+    <string name="cost">cost:%.2f $</string>
+    <string name="click_to_see_details">Click To See Details</string>
+    <string name="menu_home">home</string>
+    <string name="money_added_msg">Money added to your account</string>
+    <string name="card_added_msg">Card successfully added</string>
+    <string name="invalid_card_msg">Invalid Card No</string>
+    <string name="invalid_card_msg2">"Length of Card no must be 12!"</string>
+    <string name="empty_msg">Fields can not be empty!</string>
+    <string name="invalid_card_date_msg">Invalid Card Date</string>
+    <string name="invalid_card_date_msg2">Invalid Card Date(2023-2033)</string>
+    <string name="invalid_card_cvv_msg">Invalid CVV</string>
+    <string name="invalid_card_cvv_msg2">"Length of CVV must be 3!"</string>
+    <string name="invalid_money_amount">Invalid Money Amount(Make sure you entered more than $10 or check your card balance)</string>
+    <string name="approve_msg">Click to Approve</string>
+    <string name="tour_deleted">Tour will be deleted</string>
+    <string name="tour_deleted_msg">Tour deleted.</string>
+    <string name="agree_msg">Please Accept Agreement.</string>
+    <string name="radio_msg">Select Person count.</string>
+    <string name="no_money_msg">Not enough money.</string>
+    <string name="breakfast_msg">Breakfast reserved.</string>
+    <string name="invalid_pass_msg">Passwords must be same!</string>
+    <string name="invalid_user_msg">User name exist!</string>
+    <string name="invalid_mail_msg">Email exist!</string>
+    <string name="acc_created_msg">Account Successfully Created</string>
+    <string name="user_not_found_msg">User not found</string>
+    <string name="mail_not_found_msg">Email not found</string>
+    <string name="about_title">About</string>
+    <string name="register_title">Register</string>
+    <string name="empty_fields_msg">Email or Password can not be empty</string>
+    <string name="ny_desc">"NYC, is the most populous city in the United States. "
+                        "With a 2020 population of 8,804,190 distributed over 300.46 square miles (778.2 km2), "
+                        "New York City is the most densely populated major city in the United States and more than twice as populous "
+                        "as Los Angeles, the nations second-largest city."</string>
+    <string name="ist_desc">"Istanbul,is the largest city in Turkey, serving as the countrys economic, cultural and historic hub. "
+                            "The city straddles the Bosporus strait, lying in both "
+                            "Europe and Asia, and has a population of over 15 million residents, comprising 19% of the population of Turkey.[4] "
+                            "Istanbul is the most populous European city and the worlds 15th-largest city."</string>
+
+    <string name="jpn_desc"> "Japan, is an island country in East Asia. It is situated in the northwest Pacific Ocean and is bordered on the west by the Sea of Japan, "
+                            "extending from the Sea of Okhotsk in the north toward "
+                            "the East China Sea, Philippine Sea, and Taiwan in the south."
+                            "Japan is the eleventh most populous country in the world, as well as one of the most densely populated. "
+                            "About three-fourths of the country's terrain is mountainous, concentrating its "
+                            "highly urbanized population on narrow coastal plains. Japan is divided into 47 administrative "
+                            "prefectures and eight traditional regions. The Greater Tokyo Area is the most populous metropolitan area in the world."</string>
+
+    <string name="ams_desc"> "Amsterdam, is the capital and most populous city of the Netherlands, with The Hague being the seat of government. "
+                            "It has a population of 921,402 within the city proper, 1,457,018 in the urban area and "
+                            "2,480,394 in the metropolitan area. Located in the Dutch province of North Holland, Amsterdam is colloquially "
+                            "referred to as the \"Venice of the North\", for its large number of canals, now designated a UNESCO World Heritage Site."</string>
+
+    <string name="rome_desc">"Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. "
+                            "With 2,860,009 residents in 1,285 km2 (496.1 sq mi), Rome is the country's "
+                            "most populated comune and the third most populous city in the European Union by population within city limits. "
+                            "The Metropolitan City of Rome, with a population of 4,355,725 residents, is the most populous metropolitan city in Italy."</string>
+
+    <string name="about">
+        1-First you must register to use the app\n
+        2-To book a tour you should add money to your account(my wallet->add money)\n
+        3-Initially there will be 5k$ in every account and 10k for each added card\n
+        4-After booking a tour you can display your tours and can delete it(tour cost will be added to your account(my tours -> delete).\n
+    </string>
+
+
+</resources>

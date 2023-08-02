@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Berk Tur Uygulaması</string>
+    <string name="bookId">Reservasyon numarası:%d</string>
+    <string name="tourId">Tur numarası:%d</string>
+    <string name="pay">ÖDEME YAP</string>
+    <string name="license_agreement">koşulları kabul ediyorum</string>
+    <string name="_2_person">2+ Kişi</string>
+    <string name="_1_person">1+ Kişi</string>
+    <string name="default_1_2_person">Temel(1–2 Kişi)</string>
+    <string name="total_fee">Toplam Ücret:</string>
+    <string name="enter_money">Para Miktarı</string>
+    <string name="enter_exp_date">Son Kullanım Tarihi</string>
+    <string name="enter_cvv">CVV Girin</string>
+    <string name="add_money">Para Ekle</string>
+    <string name="add_card">Kart Ekle</string>
+    <string name="enter_card_no">Kart No Girin</string>
+    <string name="enter_name">İsim Girin</string>
+    <string name="enter_cvv2">CVV Girin</string>
+    <string name="add">EKLE</string>
+    <string name="enter_exp_date_year">Son Kullanma Tarihi(Yıl)</string>
+    <string name="enter_card_no2">Kart No Girin</string>
+    <string name="enter_an_email">Email Girin</string>
+    <string name="password">şifre</string>
+    <string name="login">GİRİŞ YAP</string>
+    <string name="register">KAYIT OL</string>
+    <string name="my_wallet">cüzdanım</string>
+    <string name="my_tours">turlarım</string>
+    <string name="log_out">çıkış yap</string>
+    <string name="delete">Sil</string>
+    <string name="enter_a_destination">Şehir Ara</string>
+    <string name="enter_an_email2">Email Girin</string>
+    <string name="password2">şifre</string>
+    <string name="enter_user_name">Kullanıcı Adı Girin</string>
+    <string name="enter_password_again">Şifreyi tekrar girin</string>
+    <string name="register2">KAYIT OL</string>
+    <string name="add_money2">PARA EKLE</string>
+    <string name="breakfast">KAHVALTI</string>
+    <string name="name_of_hotel">Hotel:%s</string>
+    <string name="destination_city">Şehir:%s</string>
+    <string name="date_of_tour">Tarih:%s</string>
+    <string name="name_of_tour">Tur İsmi:%s</string>
+    <string name="book_now">Kayıt ol!</string>
+    <string name="cost">ücret:%.2f $</string>
+    <string name="click_to_see_details">Detay için tıkla</string>
+    <string name="menu_home">ana ekran</string>
+    <string name="money_added_msg">Para Eklendi</string>
+    <string name="card_added_msg">Kart Eklendi</string>
+    <string name="invalid_card_msg">Geçersiz kart no</string>
+    <string name="empty_msg">Boş Bırakılamaz!</string>
+    <string name="invalid_card_date_msg">Geçersiz Tarih</string>
+    <string name="invalid_card_date_msg2">Geçersiz Tarih(2023–2033)</string>
+    <string name="invalid_card_cvv_msg">Geçersiz CVV</string>
+    <string name="invalid_money_amount">Geçersiz Para Miktarı($10 dan fazla yükleyin veya Kart Bakiyenizi kontrol edin)</string>
+    <string name="approve_msg">Onaylamak için tıkla</string>
+    <string name="tour_deleted">Tur silinecek</string>
+    <string name="tour_deleted_msg">Tur silindi.</string>
+    <string name="agree_msg">Lütfen sözleşmeyi kabul edin.</string>
+    <string name="radio_msg">Kişi sayısı seçin.</string>
+    <string name="no_money_msg">Yetersiz bakiye.</string>
+    <string name="breakfast_msg">kahvaltı reserve edildi.</string>
+    <string name="invalid_pass_msg">şifreler aynı olmalı!</string>
+    <string name="invalid_user_msg">kullanıcı adı kullanımda!</string>
+    <string name="invalid_mail_msg">Email kullanımda!</string>
+    <string name="acc_created_msg">Hesap başarıyla oluşturuldu.</string>
+    <string name="user_not_found_msg">Kullanıcı bulunamadı</string>
+    <string name="mail_not_found_msg">Email bulunamadı</string>
+    <string name="empty_fields_msg">Email veya Şifre boş bırakılamaz</string>
+    <string name="invalid_card_msg2">"Kart No 12 haneli olmalı"</string>
+    <string name="invalid_card_cvv_msg2">"CVV 3 haneli olmalı"</string>
+    <string name="about_title">Hakkında</string>
+    <string name="register_title">Kayıt</string>
+
+    <string name="about">
+        1-Uygulamayu kullanmak için hesap oluşturmalısın.\n
+        2-Tur kiralamak için para ekleyebilirsin(cüzdanım->para ekle).\n
+        3-Başlangıçta her hesapta 5k$ olacak ve her eklenen kart içinde 10k$ olacak.\n
+        4-Tur kiraladıktan sonra turlarını görebilir ve iptal edip para iadesi alabilirsin(turlarım - sil).\n
+    </string>
+
+    <string name="ny_desc">" ABDnin en kalabalık şehri ve dünyanın en kalabalık metropolitan alanlarından New York metropolitan bölgesinin merkezidir."
+        "Şehir bir parçası olduğu New York eyaleti ile karıştırıldığı için"
+        "İngilizcede New York City (kısaca NYC) olarak isimlendirilir."</string>
+
+    <string name="ist_desc">" Türkiye de Marmara Bölgesinde yer alan şehir ve Türkiyenin 81 ilinden biridir. Ülkenin nüfus bakımından en çok göç alan ve en kalabalık ilidir. Ekonomik, tarihî ve sosyo-kültürel açıdan önde gelen şehirlerden biridir. "
+        Şehir, iktisadi büyüklük açısından dünyada 34. sırada yer alır. Nüfuslarına göre şehirler listesinde"
+        "belediye sınırları göz önüne alınarak yapılan sıralamaya göre Avrupada birinci,"
+        "dünyada ise altıncı sırada yer almaktadır."</string>
+
+    <string name="jpn_desc">" Doğu Asyada bir ada ülkesidir.[3] Büyük Okyanusta bulunan Japonya Japon Denizinden Çin, Kuzey Kore,"
+        "Güney Kore ve Rusyanın doğusuna, kuzeyde Ohotsk Denizinden"
+        "güneyde Doğu Çin Denizi'ne ve Tayvana kadar uzanır."</string>
+
+    <string name="ams_desc">"Amsterdam, Hollandanın başkenti ve ülkenin en yüksek nüfuslu şehridir. Ancak Hollanda, hükûmetin ve meclisin bulunduğu Laheyden yönetilir. Şehir, ülkenin batısında, Kuzey Hollanda eyaletinde yer almaktadır. "
+        12. yüzyılda Amstel ırmağının kıyısında bir balıkçı köyü olarak kurulan Amsterdam,"
+        "Hollandanın kişi sayısı bakımından en büyük,kültürel ve parasal yönden de en önemli kentidir."</string>
+
+    <string name="rome_desc">"Roma komünü, İtalyanın, Lazio bölgesinin ve aynı zamanda
+        Roma ilinin başkentidir. Roma hem şehir hem de özel komün statüsü taşır.
+        Tiber ve Aniene nehirleri arasında ve Akdenize yakındır.
+        Yaklaşık 2,7 milyon nüfuslu şehirde, Katoliklerin ruhani lideri
+        Papa'nın yaşadığı bağımsız ""devlet Vatikan da yer almaktadır.
+        Bu sebeple Romaya bazı kaynaklar tarafından iki devletin başkenti de denilmektedir."</string>
+</resources>

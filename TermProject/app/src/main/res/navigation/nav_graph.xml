@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.berkpolat.termproject.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.berkpolat.termproject.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+        <argument
+            android:name="account_money"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_homeFragment_to_myWalletFragment"
+            app:destination="@id/myWalletFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tourDetailsFragment"
+            app:destination="@id/tourDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bookedTourDetailsFragment"
+            app:destination="@id/bookedTourDetailsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.berkpolat.termproject.register.RegisterFragment"
+        android:label="RegisterFragment">
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMoneyFragment"
+        android:name="com.berkpolat.termproject.addmoney.AddMoneyFragment"
+        android:label="fragment_add_money"
+        tools:layout="@layout/fragment_add_money">
+        <action
+            android:id="@+id/action_addMoneyFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+        <action
+            android:id="@+id/action_addMoneyFragment_to_myWalletFragment"
+            app:destination="@id/myWalletFragment" />
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.berkpolat.termproject.cards.CardFragment"
+        android:label="fragment_card"
+        tools:layout="@layout/fragment_card">
+        <action
+            android:id="@+id/action_cardFragment_to_addMoneyFragment"
+            app:destination="@id/addMoneyFragment" />
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/myWalletFragment"
+        android:name="com.berkpolat.termproject.wallet.MyWalletFragment"
+        android:label="fragment_my_wallet"
+        tools:layout="@layout/fragment_my_wallet">
+        <action
+            android:id="@+id/action_myWalletFragment_to_addMoneyFragment"
+            app:destination="@id/addMoneyFragment" />
+        <argument
+            android:name="accountMoney"
+            app:argType="float" />
+        <argument
+            android:name="userName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_myWalletFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tourDetailsFragment"
+        android:name="com.berkpolat.termproject.tour.TourDetailsFragment"
+        android:label="fragment_tour_details"
+        tools:layout="@layout/fragment_tour_details" >
+        <argument
+            android:name="tourId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_tourDetailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+        <argument
+            android:name="userName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_tourDetailsFragment_to_bookTourFragment"
+            app:destination="@id/bookTourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookTourFragment"
+        android:name="com.berkpolat.termproject.book.BookTourFragment"
+        android:label="fragment_book_tour"
+        tools:layout="@layout/fragment_book_tour" >
+        <argument
+            android:name="userName"
+            app:argType="string" />
+        <argument
+            android:name="tourId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_bookTourFragment_to_tourDetailsFragment"
+            app:destination="@id/tourDetailsFragment"
+            app:popUpTo="@id/tourDetailsFragment" />
+        <action
+            android:id="@+id/action_bookTourFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_bookTourFragment_to_myWalletFragment"
+            app:destination="@id/myWalletFragment" />
+        <argument
+            android:name="money"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_bookTourFragment_to_bookedTourDetailsFragment"
+            app:destination="@id/bookedTourDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookedTourDetailsFragment"
+        android:name="com.berkpolat.termproject.bookDetails.BookedTourDetailsFragment"
+        android:label="fragment_booked_tour_details"
+        tools:layout="@layout/fragment_booked_tour_details" >
+        <argument
+            android:name="user"
+            app:argType="string" />
+        <argument
+            android:name="money"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_bookedTourDetailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.berkpolat.termproject.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+</navigation>
